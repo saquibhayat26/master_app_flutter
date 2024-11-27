@@ -15,7 +15,11 @@ class Dashboard extends StatefulWidget {
 class _DashboardState extends State<Dashboard> {
   int _selectedIndex = 0;
 
-  final List<dynamic> _pages = [HomePage(), ProfilePage(), SettingsPage()];
+  final List<dynamic> _pages = [
+    HomePage(),
+    SettingsPage(),
+    ProfilePage(),
+  ];
 
   void _navigateBottomNavigationBar(int index) {
     setState(() {
